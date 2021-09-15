@@ -24,8 +24,8 @@ class Clock
   end
 
   def fill_zero(number)
-    #number = number.to_s
-    #number = "0#{number}" if number.length < 2
+    number = number.to_s
+    number = "0#{number}" if number.length < 2
     number
   end
 
